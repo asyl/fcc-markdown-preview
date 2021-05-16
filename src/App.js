@@ -3,7 +3,7 @@ import Editor from "./components/Editor";
 import Preview from "./components/Preview";
 import Toolbar from "./components/Toolbar";
 
-function App() {
+const App = () => {
   const [markdown, setMarkdown] = useState(placeholder);
   const [editorMaximized, setEditorMaximized] = useState(false);
   const [previewMaximized, setPreviewMaximized] = useState(false);
